@@ -1,0 +1,90 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Poppins', sans-serif;
+  background:linear-gradient(to bottom, #d3f1f7ee,#3794b9);
+}
+.wrapper{
+  width:90%;
+  height:100vh;
+  margin:auto;
+  padding:20px;
+}
+.cityName{
+  width:60%;
+  padding:15px;
+  border-radius: 8px;
+  border:0;
+  outline: 0;
+  margin-top:70px;
+  margin-left:9%;
+  background: rgba(0,0,0,0.1);
+  font-size: 18px;
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
+  box-shadow: 5px 5px 6px #0b1b20;
+}
+.sub{
+  width:20%;
+  padding:15px;
+  border-radius: 8px;
+  border:0;
+  outline: 0;
+  margin-top:70px;
+  background: white;
+  font-size: 18px;
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
+  box-shadow: 5px 5px 6px #0b1b20;
+  position: relative;
+}
+.sub:active{
+  top:2px;
+}
+.display{
+  width:70%;
+  height:65vh;
+  margin: 50px auto;
+  border-radius: 20px;
+  padding:20px;
+  background: rgba(0,0,0,0.3);
+  box-shadow: 6px 5px 5px rgb(31, 30, 30);
+  position: relative;
+  color:white;
+}
+.name{
+  font-weight: 900;
+  font-size: 4em;
+}
+.icon{
+  position:absolute;
+  font-size: 11em;
+  left:1.3em;
+}
+.disc{
+  font-size: 30px;
+  position:absolute;
+  left:8em;
+  bottom:1.5em;
+}
+.icon2{
+  font-size: 2.5em;
+  position: absolute;
+  top:5em;
+}
+.humidity{
+  position: absolute;
+  left:3em;
+  top:10.6em;
+  font-size: 20px;
+  font-weight: bold;
+}
+.temp{
+  position: absolute;
+  right:0.5rem;
+  top:3rem;
+  font-size: 7em;
+}
